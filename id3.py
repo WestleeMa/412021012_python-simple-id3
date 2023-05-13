@@ -177,7 +177,7 @@ tree = id3(train_data_m, 'Play Tennis')
 accuracy = evaluate(tree, test_data_m, 'Play Tennis')
 
 # print(train_data_m.head())  # viewing some row of the dataset
-my_number = 15
+my_number = 20
 print('Decision tree result', tree)
 print('Accuracy :', accuracy)
 print('The class of data no', my_number - 1, 'is',
